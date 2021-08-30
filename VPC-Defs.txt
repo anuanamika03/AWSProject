@@ -1,0 +1,26 @@
+A gateway is simply a device that joins together two different networks. In the most common 
+scenario, an internal network with the internet. A router is an example of a gateway device.
+
+A router is a device that does routing, deciding where packets are sent to based on its IP 
+ address.
+
+A firewall is a filter that examines packets against a set of defined rules in order to decide
+ whether to allow the packets through.
+
+In many devices, the functionality of both a gateway and a firewall is present. Of course,
+ there are dedicated versions of each for use in large enterprise networks.
+ 
+ The default firewall in most of the Linux distributions is IPTables.
+
+IPTables is used to manage packet filtering, DNAT(Destination Network Address Translation), 
+SNAT(Source Network Address Translation) rules. IPTables comes with all Linux distributions.
+
+=======================>
+
+Some ranges are reserved for private subnet:
+
+10.0.0.0 - 10.255.255.255 (10/8 prefix)
+172.16.0.0 - 172.31.255.255 (172.16/12 prefix)
+192.168.0.0 - 192.168.255.255 (192.108/16 prefix)
+
+IPV4 CIDR Block: 10.0.0.0/16
